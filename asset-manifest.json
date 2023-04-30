@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/%7Bispproject%7D/static/css/main.073c9b0a.css",
-    "main.js": "/%7Bispproject%7D/static/js/main.d96cd0a1.js",
-    "static/js/787.66fe0abc.chunk.js": "/%7Bispproject%7D/static/js/787.66fe0abc.chunk.js",
-    "static/media/logo.svg": "/%7Bispproject%7D/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/%7Bispproject%7D/index.html",
-    "main.073c9b0a.css.map": "/%7Bispproject%7D/static/css/main.073c9b0a.css.map",
-    "main.d96cd0a1.js.map": "/%7Bispproject%7D/static/js/main.d96cd0a1.js.map",
-    "787.66fe0abc.chunk.js.map": "/%7Bispproject%7D/static/js/787.66fe0abc.chunk.js.map"
+    "main.css": "/ispproject/static/css/main.073c9b0a.css",
+    "main.js": "/ispproject/static/js/main.b4386b3c.js",
+    "static/js/787.66fe0abc.chunk.js": "/ispproject/static/js/787.66fe0abc.chunk.js",
+    "static/media/logo.svg": "/ispproject/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ispproject/index.html",
+    "main.073c9b0a.css.map": "/ispproject/static/css/main.073c9b0a.css.map",
+    "main.b4386b3c.js.map": "/ispproject/static/js/main.b4386b3c.js.map",
+    "787.66fe0abc.chunk.js.map": "/ispproject/static/js/787.66fe0abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d96cd0a1.js"
+    "static/js/main.b4386b3c.js"
   ]
 }
