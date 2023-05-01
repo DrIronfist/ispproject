@@ -18,7 +18,6 @@ export default function perlin2D(x, y, octaves, frequency, amplitude, persistenc
     let maxAmplitude = 0;
     let f = frequency;
     let a = amplitude;
-
     for (let i = 0; i < octaves; i++) {
         let noise = noise2D(x * f, y * f);
         noiseValue += noise * a;
@@ -26,10 +25,8 @@ export default function perlin2D(x, y, octaves, frequency, amplitude, persistenc
         f *= 2;
         a *= persistence;
     }
-
     return noiseValue / maxAmplitude;
 }
-
 function noise2D(x, y) {
     let X = Math.floor(x) & 255;
     let Y = Math.floor(y) & 255;
@@ -39,22 +36,17 @@ function noise2D(x, y) {
     let v = fade(y);
     let A = p[X] + Y;
     let B = p[X + 1] + Y;
-
     return lerp(v, lerp(u, grad(p[A], x, y), grad(p[B], x - 1, y)), lerp(u, grad(p[A + 1], x, y - 1), grad(p[B + 1], x - 1, y - 1)));
 }
-
 function fade(t) {
     return t * t * t * (t * (t * 6 - 15) + 10);
 }
-
 function lerp(t, a, b) {
     return a + t * (b - a);
 }
-
 function grad(hash, x, y) {
     let h = hash & 3;
     let u = h === 0 ? x : h === 1 ? -x : y;
     let v = h === 0 || h === 1 ? y : -x;
-
     return (h & 2) === 0 ? u : v;
 }
